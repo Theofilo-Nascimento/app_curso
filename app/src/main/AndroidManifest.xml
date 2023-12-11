@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AppFinalTheo"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity_back_5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_back_4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_back_3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_back_2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_back_1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

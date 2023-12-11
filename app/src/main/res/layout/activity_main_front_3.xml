@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="">
+    android:background=""
+    tools:context=".MainActivity_back_3">
 
-<!--Lista de jogadores e botão de avançar.
-    capa/background-->
+    <!--Lista de jogadores e botão de avançar.
+            capa/background-->
 
     <Button
         android:id="@+id/button3"
@@ -17,16 +18,20 @@
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="619dp" />
+        tools:layout_editor_absoluteY="619dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="232dp"
-        android:layout_height="82dp"
+        android:layout_width="328dp"
+        android:layout_height="542dp"
+        android:layout_marginTop="48dp"
         android:text="jogadores"
         android:textColor="@color/red"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="">
+    android:background=""
+    tools:context=".MainActivity_back_4">
 
-<!--Capa/background,
-    jogador da vez, lista de temas e botão de avançar.-->
+
+    <!--Capa/background,
+        jogador da vez, lista de temas e botão de avançar.-->
 
     <TextView
         android:id="@+id/textView3"
@@ -18,7 +20,8 @@
         android:textColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="45dp" />
+        tools:layout_editor_absoluteY="45dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
@@ -29,7 +32,8 @@
         android:textColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="139dp" />
+        tools:layout_editor_absoluteY="139dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
@@ -41,4 +45,5 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="619dp"
         tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
