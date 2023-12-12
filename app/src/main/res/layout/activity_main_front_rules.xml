@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_back_rules">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="384dp"
+        android:layout_height="618dp"
+        android:layout_marginTop="16dp"
+        android:text="1) Todos os participantes devem colocar os seus nomes na lista.   2)Cada participante, exeto o jogador da rodada, deve escrever ideias que irão para o jogador.   3)O jogador terá 2 minutos para ver as ideias e pensar numa história, após isso terá 5 minutos para executar a história.    4)Por fim, a nova rodada começa com um novo jogador junto de uma nova lista de temas seguindo as mesmas regras além da mais importante, dar sequência a história da rodada anterior.    EXTRA: a história é narrada, contudo o jogador pode usar os outros participantes para encenarem sua história no improviso e sem comunicação prévia(da história em si para os 'atores')"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="171dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:textSize="27dp"
+        android:text="Voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

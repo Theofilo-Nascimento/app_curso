@@ -4,12 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
     tools:context=".MainActivity_back_2">
 
-    <!--Filtro escuro e traslucido na frente da capa
-    (photoshop, fazer uma imagem só e colocar no background)
-        titulo, botão de play e botão de regras.-->
 
     <TextView
         android:id="@+id/textView"
@@ -37,7 +33,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonRules"
         android:layout_width="204dp"
         android:layout_height="59dp"
         android:layout_marginTop="152dp"
