@@ -10,17 +10,15 @@
     <!--Capa/background,
         jogador da vez, lista de temas e botão de avançar.-->
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="341dp"
-        android:layout_height="63dp"
-        android:text="jogador da vez"
-        android:textSize="50dp"
-        android:textColor="@color/red"
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:hint="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="45dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
