@@ -15,30 +15,38 @@ jogador da vez,botão pra lista de temas e temporizador(2min)-->
         android:layout_height="46dp"
         android:text="jogador da vez"
         android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:textColor="@color/red" />
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="28dp"
+        tools:textColor="@color/red"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="225dp"
         android:layout_height="56dp"
-        android:layout_marginTop="148dp"
         android:text="Temas"
         android:textSize="27sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="471dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="291dp"
         android:layout_height="122dp"
-        android:layout_marginTop="196dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_width="225dp"
+        android:layout_height="56dp"
+        android:text="Recomeçar"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="621dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,15 +16,15 @@ class MainActivity_back_2 : AppCompatActivity() {
         val buttonRules = findViewById<Button>(R.id.buttonRules)
 
         buttonPlay.setOnClickListener {
-            irParaTerceiraTela()
+            irParaQuartaTela()
         }
         buttonRules.setOnClickListener {
             irParaRegras()
         }
     }
-    private fun irParaTerceiraTela() {
-        val irTerceiraTela = Intent(this, MainActivity_back_3::class.java)
-        startActivity(irTerceiraTela)
+    private fun irParaQuartaTela() {
+        val irQuartaTela = Intent(this, MainActivity_back_4::class.java)
+        startActivity(irQuartaTela)
     }
     private fun irParaRegras() {
         val irRegras = Intent(this, MainActivity_back_rules::class.java)

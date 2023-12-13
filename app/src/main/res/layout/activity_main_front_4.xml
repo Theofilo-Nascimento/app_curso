@@ -11,36 +11,40 @@
         jogador da vez, lista de temas e botão de avançar.-->
 
     <EditText
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:id="@+id/editJogador"
+        android:layout_width="411dp"
+        android:layout_height="62dp"
         android:layout_marginTop="36dp"
-        android:hint="@string/app_name"
+        android:hint="JOGADOR DA RODADA"
+        android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="341dp"
-        android:layout_height="443dp"
-        android:text="lista de temas:"
-        android:textSize="50dp"
-        android:textColor="@color/red"
+    <EditText
+        android:id="@+id/editTemas"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:hint="TEMAS:"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="139dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@+id/editJogador" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="198dp"
         android:layout_height="57dp"
+        android:layout_marginTop="464dp"
         android:text="Avançar"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="619dp"
+        app:layout_constraintTop_toBottomOf="@+id/editTemas"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
